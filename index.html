@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Game</title>
+  
+  <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#000000">
+  
+     <link rel="icon" type="image/png" href="IMG /game-console.png" sizes="32x32"> 
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="">
+  <input type="text" class="input"  id="input" value="000" />
+  <input type="text" class="input_max"  id="input_max" value="000" />
+  
+  </div>
+
+  <div class="game">
+      <div id="fox"></div>
+  <div id="crocodile"></div>
+
+  </div> 
+    <button class="button_start" onclick="start()">Start</button>
+    <button class="button_jump" onclick="jump()">Jump</button>
+<img class="logo" src="IMG /logo.png" alt="logo" />
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+  }
+</script>
+  <script src="main.js"></script>
+</body>
+</html>
