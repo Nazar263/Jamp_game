@@ -14,7 +14,7 @@ body{
 #fox{
   width: 50px;
   height: 50px;
-  background-image: url("IMG/rabbit.png");
+  background-image: url("IMG /rabbit.png");
   background-size: 50px 50px;
   position: relative;
   top: 300px;
@@ -23,7 +23,7 @@ body{
 #crocodile{
   width: 60px;
   height: 60px;
-  background-image: url("IMG/crocodile.png");
+  background-image: url("IMG /crocodile.png");
   background-size: 60px 60px;
   position: relative;
   top: 290px;
