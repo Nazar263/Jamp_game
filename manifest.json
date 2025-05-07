@@ -1,9 +1,9 @@
 {
   "name": "Jamp Game",
-  "short_name": "Jamp",
+  "short_name": "Game",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#ffffff",
+  "background_color": "#1B1C2D",
   "theme_color": "#000000",
   "icons": [
     {
