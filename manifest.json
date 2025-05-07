@@ -3,7 +3,7 @@
   "short_name": "Jamp",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color":"#B0B0B0",
+  "background_color":"#F4F4F4",
   "theme_color": "#000000",
   "icons": [
     {
